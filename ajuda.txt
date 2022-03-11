@@ -1,12 +1,14 @@
 …or create a new repository on the command line
 
 echo "# sss" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/SamuelBarbosaDev/sss.git
-git push -u origin main
+
+Criar um repositorio                       | git init                                                            
+adiciona o arquivo ao repositorio local    | git add [nome] ou . para envia tudo
+commita o arquivo para o repositorio local | git commit -m "first commit"
+sei não                                    | git branch -M main
+local onde deve ser enviado                | git remote add origin https://github.com/SamuelBarbosaDev/sss.git
+envia para o repositorio                   | git push -u origin main
+criar a branch                             | git checkout -b [nome_da_branch]
 
 -------------------------------
 git push --set-upstream origin master
