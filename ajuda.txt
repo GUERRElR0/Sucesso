@@ -9,7 +9,8 @@ sei não                                    | git branch -M main
 local onde deve ser enviado                | git remote add origin https://github.com/SamuelBarbosaDev/sss.git
 envia para o repositorio                   | git push -u origin main
 criar a branch                             | git checkout -b [nome_da_branch]
-
+envia a branch                             | git push --set-upstream origin [nome_da_branch]
+adiciona e commita                         | git commit -am "[mensagem]"
 -------------------------------
 git push --set-upstream origin master
 -------------------------------
